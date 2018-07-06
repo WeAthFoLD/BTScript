@@ -70,7 +70,7 @@
 			"patterns": [
 				{
 					"name": "entity.name.class.btscript",
-					"match": "\\b(Prio|Seq|ParallelAnd|ParallelOr|Rand)\\b"
+					"match": "\\b[A-Z][a-zA-Z]+\\b"
 				},
 				{
 					"name": "entity.name.function.btscript",

@@ -2,7 +2,7 @@
     "name": "btscript",
     "displayName": "BTScript support",
     "description": "BTScript support",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "WeAthFolD",
     "engines": {
         "vscode": "^1.19.0"
