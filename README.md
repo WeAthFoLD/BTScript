@@ -35,8 +35,8 @@ BTScript has VSCode plugin support. Search `btscript` in extension marketplace. 
 
 Would appreciate a cup of coffee if you liked my work!
 
-Alipay![](Misc/Alipay.jpg)
-[Paypal](https://www.paypal.me/weathfold)
+* Alipay ![](https://raw.githubusercontent.com/WeAthFoLD/BTScript/master/Misc/alipay.jpg)
+* [Paypal](https://www.paypal.me/weathfold)
 
 # TODO
 
