@@ -1,0 +1,26 @@
+{
+    "name": "btscript",
+    "displayName": "BTScript support",
+    "description": "BTScript support",
+    "version": "0.1.0",
+    "publisher": "WeAthFolD",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "btscript",
+            "aliases": ["BTScript", "btscript"],
+            "extensions": [".bts",".bts.txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "btscript",
+            "scopeName": "source.bts",
+            "path": "./syntaxes/btscript.tmLanguage.json"
+        }]
+    }
+}

@@ -1,0 +1,83 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "BTScript",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#controlNodes"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.btscript",
+					"match": "\\:[a-z]+\\b"
+				},
+				{
+					"name": "constant.language",
+					"match": "\\b(true|false)\\b"
+				},
+				{
+					"name": "entity.name.function.btscript",
+					"match": "!|\\?"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.btscript",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.btscript",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.btscript",
+					"match": "//.*"
+				}				
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.integer.btscript",
+					"match": "[+\\-]?([0-9])+"
+				},
+				{
+					"name": "constant.numeric.float.btscript",
+					"match": "[+\\-]?[0-9]+\\.[0-9]*"
+				}
+			]
+		},
+		"controlNodes": {
+			"patterns": [
+				{
+					"name": "entity.name.class.btscript",
+					"match": "\\b(Prio|Seq|ParallelAnd|ParallelOr|Rand)\\b"
+				},
+				{
+					"name": "entity.name.function.btscript",
+					"match": "@[a-zA-Z][a-zA-Z0-9]*\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.bts"
+}

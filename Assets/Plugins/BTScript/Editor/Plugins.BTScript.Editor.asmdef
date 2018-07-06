@@ -1,0 +1,10 @@
+{
+    "name": "Plugins.BTScript.Editor",
+    "references": [
+        "Plugins.BTScript"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
